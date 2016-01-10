@@ -1,0 +1,297 @@
+﻿Build started 21-Dec-15 1:26:07 AM.
+     1>Project "K:\Works\CPP\CrossOver\CrossOverProject\WebApp\WebApp.vcxproj" on node 3 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"K:\Works\CPP\CrossOver\Wt-3.3.5-rc2-msvs2013-Windows-x86-SDK\Wt-3.3.5-rc2-msvs2013-Windows-x86-SDK\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D HPDF_DLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\http\request(83): warning C4251: 'Wt::Http::UploadedFile::fileInfo_' : class 'boost::shared_ptr<Wt::Http::UploadedFile::Impl>' needs to have dll-interface to be used by clients of class 'Wt::Http::UploadedFile'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\http\request(414): warning C4251: 'Wt::Http::Request::cookies_' : class 'std::map<std::string,std::string,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'Wt::Http::Request'
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=std::string
+                 ]
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wobject(242): warning C4275: non dll-interface class 'boost::signals2::trackable' used as base for dll-interface class 'Wt::WObject'
+                 k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\boost\signals2\trackable.hpp(38) : see declaration of 'boost::signals2::trackable'
+                 k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wobject(241) : see declaration of 'Wt::WObject'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wobject(516): warning C4251: 'Wt::WObject::statelessSlots_' : class 'std::vector<Wt::WStatelessSlot *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Wt::WObject'
+                 with
+                 [
+                     _Ty=Wt::WStatelessSlot *
+                 ]
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wobject(520): warning C4251: 'Wt::WObject::name_' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Wt::WObject'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wobject(531): warning C4251: 'Wt::WObject::emptyObjectList_' : class 'std::vector<Wt::WObject *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Wt::WObject'
+                 with
+                 [
+                     _Ty=Wt::WObject *
+                 ]
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wobject(540): warning C4251: 'Wt::WObject::trackable_ptr_' : class 'boost::shared_ptr<T>' needs to have dll-interface to be used by clients of class 'Wt::WObject'
+                 with
+                 [
+                     T=int
+                 ]
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wstring(532): warning C4251: 'Wt::WString::utf8_' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Wt::WString'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wstring(546): warning C4251: 'Wt::WString::stArguments_' : class 'std::vector<Wt::WString,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Wt::WString'
+                 with
+                 [
+                     _Ty=Wt::WString
+                 ]
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wanimation(173): warning C4251: 'Wt::WAnimation::effects_' : class 'Wt::WFlags<Wt::WAnimation::AnimationEffect>' needs to have dll-interface to be used by clients of class 'Wt::WAnimation'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wsignal(572): warning C4251: 'Wt::EventSignalBase::connections_' : class 'std::vector<Wt::EventSignalBase::StatelessConnection,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Wt::EventSignalBase'
+                 with
+                 [
+                     _Ty=Wt::EventSignalBase::StatelessConnection
+                 ]
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wsignal(573): warning C4251: 'Wt::EventSignalBase::flags_' : class 'std::bitset<7>' needs to have dll-interface to be used by clients of class 'Wt::EventSignalBase'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wsignal(580): warning C4251: 'Wt::EventSignalBase::dummy_' : class 'boost::signals2::signal<void (void),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'Wt::EventSignalBase'
+                 with
+                 [
+                     Group=int
+         ,            Signature=void (void)
+         ,            R=void
+                 ]
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wevent(89): warning C4251: 'Wt::JavaScriptEvent::modifiers' : class 'Wt::WFlags<Wt::KeyboardModifier>' needs to have dll-interface to be used by clients of class 'Wt::JavaScriptEvent'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wevent(92): warning C4251: 'Wt::JavaScriptEvent::touches' : class 'std::vector<Wt::Touch,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Wt::JavaScriptEvent'
+                 with
+                 [
+                     _Ty=Wt::Touch
+                 ]
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wevent(92): warning C4251: 'Wt::JavaScriptEvent::targetTouches' : class 'std::vector<Wt::Touch,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Wt::JavaScriptEvent'
+                 with
+                 [
+                     _Ty=Wt::Touch
+                 ]
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wevent(92): warning C4251: 'Wt::JavaScriptEvent::changedTouches' : class 'std::vector<Wt::Touch,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Wt::JavaScriptEvent'
+                 with
+                 [
+                     _Ty=Wt::Touch
+                 ]
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wevent(101): warning C4251: 'Wt::JavaScriptEvent::type' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Wt::JavaScriptEvent'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wevent(104): warning C4251: 'Wt::JavaScriptEvent::tid' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Wt::JavaScriptEvent'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wevent(106): warning C4251: 'Wt::JavaScriptEvent::response' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Wt::JavaScriptEvent'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wevent(108): warning C4251: 'Wt::JavaScriptEvent::userEventArgs' : class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Wt::JavaScriptEvent'
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wevent(435): warning C4251: 'Wt::WDropEvent::dropMimeType_' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Wt::WDropEvent'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wexception(42): warning C4251: 'Wt::WException::what_' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Wt::WException'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wstringstream(210): warning C4251: 'Wt::WStringStream::bufs_' : class 'std::vector<std::pair<char *,int>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Wt::WStringStream'
+                 with
+                 [
+                     _Ty=std::pair<char *,int>
+                 ]
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wlogger(227): warning C4251: 'Wt::WLogger::fields_' : class 'std::vector<Wt::WLogger::Field,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Wt::WLogger'
+                 with
+                 [
+                     _Ty=Wt::WLogger::Field
+                 ]
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wlogger(235): warning C4251: 'Wt::WLogger::rules_' : class 'std::vector<Wt::WLogger::Rule,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Wt::WLogger'
+                 with
+                 [
+                     _Ty=Wt::WLogger::Rule
+                 ]
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wjavascript(387): warning C4251: 'Wt::JSignal<Wt::NoClass,Wt::NoClass,Wt::NoClass,Wt::NoClass,Wt::NoClass,Wt::NoClass>::name_' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Wt::JSignal<Wt::NoClass,Wt::NoClass,Wt::NoClass,Wt::NoClass,Wt::NoClass,Wt::NoClass>'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wjavascript(387): warning C4251: 'Wt::JSignal<Wt::NoClass,Wt::NoClass,Wt::NoClass,Wt::NoClass,Wt::NoClass,Wt::NoClass>::senderId_' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Wt::JSignal<Wt::NoClass,Wt::NoClass,Wt::NoClass,Wt::NoClass,Wt::NoClass,Wt::NoClass>'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wwidget(1236): warning C4251: 'Wt::WWidget::flags_' : class 'std::bitset<6>' needs to have dll-interface to be used by clients of class 'Wt::WWidget'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wwidget(1238): warning C4251: 'Wt::WWidget::eventSignals_' : class 'std::list<Wt::EventSignalBase *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Wt::WWidget'
+                 with
+                 [
+                     _Ty=Wt::EventSignalBase *
+                 ]
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wwebwidget(387): warning C4251: 'Wt::WWebWidget::elementTagName_' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Wt::WWebWidget'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wwebwidget(390): warning C4251: 'Wt::WWebWidget::AllChangeFlags' : class 'std::bitset<31>' needs to have dll-interface to be used by clients of class 'Wt::WWebWidget'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wwebwidget(398): warning C4251: 'Wt::WWebWidget::flags_' : class 'std::bitset<31>' needs to have dll-interface to be used by clients of class 'Wt::WWebWidget'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wwebwidget(503): warning C4251: 'Wt::WWebWidget::emptyWidgetList_' : class 'std::vector<Wt::WWidget *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Wt::WWebWidget'
+                 with
+                 [
+                     _Ty=Wt::WWidget *
+                 ]
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wlink(186): warning C4251: 'Wt::WLink::value_' : class 'boost::variant<std::string,Wt::WResource *,boost::detail::variant::void_,boost::detail::variant::void_,boost::detail::variant::void_,boost::detail::variant::void_,boost::detail::variant::void_,boost::detail::variant::void_,boost::detail::variant::void_,boost::detail::variant::void_,boost::detail::variant::void_,boost::detail::variant::void_,boost::detail::variant::void_,boost::detail::variant::void_,boost::detail::variant::void_,boost::detail::variant::void_,boost::detail::variant::void_,boost::detail::variant::void_,boost::detail::variant::void_,boost::detail::variant::void_>' needs to have dll-interface to be used by clients of class 'Wt::WLink'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wcssdecorationstyle(216): warning C4251: 'Wt::WCssDecorationStyle::cursorImage_' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Wt::WCssDecorationStyle'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wcssdecorationstyle(222): warning C4251: 'Wt::WCssDecorationStyle::backgroundImageLocation_' : class 'Wt::WFlags<Wt::Side>' needs to have dll-interface to be used by clients of class 'Wt::WCssDecorationStyle'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wcssdecorationstyle(224): warning C4251: 'Wt::WCssDecorationStyle::textDecoration_' : class 'Wt::WFlags<Wt::WCssDecorationStyle::TextDecoration>' needs to have dll-interface to be used by clients of class 'Wt::WCssDecorationStyle'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wcssstylesheet(78): warning C4251: 'Wt::WCssRule::selector_' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Wt::WCssRule'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wcssstylesheet(286): warning C4251: 'Wt::WCssStyleSheet::media_' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Wt::WCssStyleSheet'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wcssstylesheet(288): warning C4251: 'Wt::WCssStyleSheet::rules_' : class 'std::vector<Wt::WCssRule *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Wt::WCssStyleSheet'
+                 with
+                 [
+                     _Ty=Wt::WCssRule *
+                 ]
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wcssstylesheet(289): warning C4251: 'Wt::WCssStyleSheet::rulesAdded_' : class 'std::vector<Wt::WCssRule *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Wt::WCssStyleSheet'
+                 with
+                 [
+                     _Ty=Wt::WCssRule *
+                 ]
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wcssstylesheet(291): warning C4251: 'Wt::WCssStyleSheet::rulesModified_' : class 'std::set<Wt::WCssRule *,std::less<_Kty>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Wt::WCssStyleSheet'
+                 with
+                 [
+                     _Kty=Wt::WCssRule *
+         ,            _Ty=Wt::WCssRule *
+                 ]
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wcssstylesheet(292): warning C4251: 'Wt::WCssStyleSheet::rulesRemoved_' : class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Wt::WCssStyleSheet'
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wcssstylesheet(294): warning C4251: 'Wt::WCssStyleSheet::defined_' : class 'std::set<std::string,std::less<_Kty>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Wt::WCssStyleSheet'
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=std::string
+                 ]
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wlocale(233): warning C4251: 'Wt::WLocale::name_' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Wt::WLocale'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wlocale(234): warning C4251: 'Wt::WLocale::decimalPoint_' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Wt::WLocale'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wlocale(234): warning C4251: 'Wt::WLocale::groupSeparator_' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Wt::WLocale'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wlocale(237): warning C4251: 'Wt::WLocale::time_zone_' : class 'boost::shared_ptr<tz_type>' needs to have dll-interface to be used by clients of class 'Wt::WLocale'
+                 with
+                 [
+                     tz_type=boost::date_time::time_zone_base<boost::posix_time::ptime,char>
+                 ]
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wmessageresourcebundle(171): warning C4251: 'Wt::WMessageResourceBundle::messageResources_' : class 'std::vector<Wt::WMessageResources *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Wt::WMessageResourceBundle'
+                 with
+                 [
+                     _Ty=Wt::WMessageResources *
+                 ]
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wapplication(2161): warning C4251: 'Wt::WApplication::requestTooLarge_' : class 'Wt::Signal<int64_t,Wt::NoClass,Wt::NoClass,Wt::NoClass,Wt::NoClass,Wt::NoClass>' needs to have dll-interface to be used by clients of class 'Wt::WApplication'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wapplication(2203): warning C4251: 'Wt::WApplication::weakSession_' : class 'boost::weak_ptr<Wt::WebSession>' needs to have dll-interface to be used by clients of class 'Wt::WApplication'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wapplication(2215): warning C4251: 'Wt::WApplication::renderedInternalPath_' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Wt::WApplication'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wapplication(2215): warning C4251: 'Wt::WApplication::newInternalPath_' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Wt::WApplication'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wapplication(2216): warning C4251: 'Wt::WApplication::internalPathChanged_' : class 'Wt::Signal<std::string,Wt::NoClass,Wt::NoClass,Wt::NoClass,Wt::NoClass,Wt::NoClass>' needs to have dll-interface to be used by clients of class 'Wt::WApplication'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wapplication(2216): warning C4251: 'Wt::WApplication::internalPathInvalid_' : class 'Wt::Signal<std::string,Wt::NoClass,Wt::NoClass,Wt::NoClass,Wt::NoClass,Wt::NoClass>' needs to have dll-interface to be used by clients of class 'Wt::WApplication'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wapplication(2224): warning C4251: 'Wt::WApplication::javaScriptClass_' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Wt::WApplication'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wapplication(2234): warning C4251: 'Wt::WApplication::htmlClass_' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Wt::WApplication'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wapplication(2234): warning C4251: 'Wt::WApplication::bodyClass_' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Wt::WApplication'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wapplication(2240): warning C4251: 'Wt::WApplication::focusId_' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Wt::WApplication'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wapplication(2244): warning C4251: 'Wt::WApplication::scriptLibraries_' : class 'std::vector<Wt::WApplication::ScriptLibrary,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Wt::WApplication'
+                 with
+                 [
+                     _Ty=Wt::WApplication::ScriptLibrary
+                 ]
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wapplication(2248): warning C4251: 'Wt::WApplication::styleSheets_' : class 'std::vector<Wt::WCssStyleSheet,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Wt::WApplication'
+                 with
+                 [
+                     _Ty=Wt::WCssStyleSheet
+                 ]
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wapplication(2249): warning C4251: 'Wt::WApplication::styleSheetsToRemove_' : class 'std::vector<Wt::WCssStyleSheet,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Wt::WApplication'
+                 with
+                 [
+                     _Ty=Wt::WCssStyleSheet
+                 ]
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wapplication(2253): warning C4251: 'Wt::WApplication::metaHeaders_' : class 'std::vector<Wt::MetaHeader,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Wt::WApplication'
+                 with
+                 [
+                     _Ty=Wt::MetaHeader
+                 ]
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wapplication(2254): warning C4251: 'Wt::WApplication::metaLinks_' : class 'std::vector<Wt::WApplication::MetaLink,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Wt::WApplication'
+                 with
+                 [
+                     _Ty=Wt::WApplication::MetaLink
+                 ]
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wapplication(2256): warning C4251: 'Wt::WApplication::exposedSignals_' : class 'std::map<std::string,Wt::EventSignalBase *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'Wt::WApplication'
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=Wt::EventSignalBase *
+                 ]
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wapplication(2257): warning C4251: 'Wt::WApplication::exposedResources_' : class 'std::map<std::string,Wt::WResource *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'Wt::WApplication'
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=Wt::WResource *
+                 ]
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wapplication(2258): warning C4251: 'Wt::WApplication::encodedObjects_' : class 'std::map<std::string,Wt::WObject *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'Wt::WApplication'
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=Wt::WObject *
+                 ]
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wapplication(2260): warning C4251: 'Wt::WApplication::justRemovedSignals_' : class 'std::set<std::string,std::less<_Kty>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Wt::WApplication'
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=std::string
+                 ]
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wapplication(2265): warning C4251: 'Wt::WApplication::afterLoadJavaScript_' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Wt::WApplication'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wapplication(2265): warning C4251: 'Wt::WApplication::beforeLoadJavaScript_' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Wt::WApplication'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wapplication(2267): warning C4251: 'Wt::WApplication::autoJavaScript_' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Wt::WApplication'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wapplication(2271): warning C4251: 'Wt::WApplication::javaScriptPreamble_' : class 'std::vector<Wt::WJavaScriptPreamble,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Wt::WApplication'
+                 with
+                 [
+                     _Ty=Wt::WJavaScriptPreamble
+                 ]
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wapplication(2276): warning C4251: 'Wt::WApplication::javaScriptLoaded_' : class 'std::set<const char *,std::less<_Kty>,std::allocator<_Kty>>' needs to have dll-interface to be used by clients of class 'Wt::WApplication'
+                 with
+                 [
+                     _Kty=const char *
+                 ]
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wapplication(2279): warning C4251: 'Wt::WApplication::showLoadingIndicator_' : class 'Wt::EventSignal<Wt::NoClass>' needs to have dll-interface to be used by clients of class 'Wt::WApplication'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wapplication(2279): warning C4251: 'Wt::WApplication::hideLoadingIndicator_' : class 'Wt::EventSignal<Wt::NoClass>' needs to have dll-interface to be used by clients of class 'Wt::WApplication'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wapplication(2282): warning C4251: 'Wt::WApplication::objectStore_' : class 'std::map<const char *,boost::any,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'Wt::WApplication'
+                 with
+                 [
+                     _Kty=const char *
+         ,            _Ty=boost::any
+                 ]
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wcontainerwidget(367): warning C4251: 'Wt::WContainerWidget::flags_' : class 'std::bitset<8>' needs to have dll-interface to be used by clients of class 'Wt::WContainerWidget'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wcontainerwidget(368): warning C4251: 'Wt::WContainerWidget::contentAlignment_' : class 'Wt::WFlags<Wt::AlignmentFlag>' needs to have dll-interface to be used by clients of class 'Wt::WContainerWidget'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wvalidator(202): warning C4251: 'Wt::WValidator::formWidgets_' : class 'std::vector<Wt::WFormWidget *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Wt::WValidator'
+                 with
+                 [
+                     _Ty=Wt::WFormWidget *
+                 ]
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wformwidget(201): warning C4251: 'Wt::WFormWidget::flags_' : class 'std::bitset<5>' needs to have dll-interface to be used by clients of class 'Wt::WFormWidget'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wformwidget(202): warning C4251: 'Wt::WFormWidget::validated_' : class 'Wt::Signal<Wt::WValidator::Result,Wt::NoClass,Wt::NoClass,Wt::NoClass,Wt::NoClass,Wt::NoClass>' needs to have dll-interface to be used by clients of class 'Wt::WFormWidget'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wlineedit(329): warning C4251: 'Wt::WLineEdit::flags_' : class 'std::bitset<5>' needs to have dll-interface to be used by clients of class 'Wt::WLineEdit'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wlineedit(331): warning C4251: 'Wt::WLineEdit::SKIPPABLE_MASK_CHARS' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Wt::WLineEdit'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wlineedit(334): warning C4251: 'Wt::WLineEdit::mask_' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Wt::WLineEdit'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wlineedit(336): warning C4251: 'Wt::WLineEdit::inputMask_' : class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Wt::WLineEdit'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wlineedit(337): warning C4251: 'Wt::WLineEdit::raw_' : class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Wt::WLineEdit'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wlineedit(344): warning C4251: 'Wt::WLineEdit::inputMaskFlags_' : class 'Wt::WFlags<Wt::WLineEdit::InputMaskFlag>' needs to have dll-interface to be used by clients of class 'Wt::WLineEdit'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wlineedit(345): warning C4251: 'Wt::WLineEdit::case_' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Wt::WLineEdit'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wanchor(346): warning C4251: 'Wt::WAnchor::flags_' : class 'std::bitset<2>' needs to have dll-interface to be used by clients of class 'Wt::WAnchor'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wtext(268): warning C4251: 'Wt::WText::text_' : struct 'Wt::WText::RichText' needs to have dll-interface to be used by clients of class 'Wt::WText'
+                 k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wtext(256) : see declaration of 'Wt::WText::RichText'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wtext(280): warning C4251: 'Wt::WText::flags_' : class 'std::bitset<9>' needs to have dll-interface to be used by clients of class 'Wt::WText'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wpushbutton(334): warning C4251: 'Wt::WPushButton::text_' : struct 'Wt::WText::RichText' needs to have dll-interface to be used by clients of class 'Wt::WPushButton'
+                 k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wtext(256) : see declaration of 'Wt::WText::RichText'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wpushbutton(337): warning C4251: 'Wt::WPushButton::flags_' : class 'std::bitset<8>' needs to have dll-interface to be used by clients of class 'Wt::WPushButton'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wtablerow(154): warning C4251: 'Wt::WTableRow::cells_' : class 'std::vector<Wt::WTableRow::TableData,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Wt::WTableRow'
+                 with
+                 [
+                     _Ty=Wt::WTableRow::TableData
+                 ]
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wtable(181): warning C4251: 'Wt::WTable::flags_' : class 'std::bitset<3>' needs to have dll-interface to be used by clients of class 'Wt::WTable'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wtable(183): warning C4251: 'Wt::WTable::rows_' : class 'std::vector<Wt::WTableRow *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Wt::WTable'
+                 with
+                 [
+                     _Ty=Wt::WTableRow *
+                 ]
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\wtable(184): warning C4251: 'Wt::WTable::columns_' : class 'std::vector<Wt::WTableColumn *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Wt::WTable'
+                 with
+                 [
+                     _Ty=Wt::WTableColumn *
+                 ]
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\http\message(70): warning C4251: 'Wt::Http::Message::Header::name_' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Wt::Http::Message::Header'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\http\message(70): warning C4251: 'Wt::Http::Message::Header::value_' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Wt::Http::Message::Header'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\http\message(148): warning C4251: 'Wt::Http::Message::headers_' : class 'std::vector<Wt::Http::Message::Header,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Wt::Http::Message'
+                 with
+                 [
+                     _Ty=Wt::Http::Message::Header
+                 ]
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\http\client(418): warning C4251: 'Wt::Http::Client::impl_' : class 'boost::shared_ptr<Wt::Http::Client::Impl>' needs to have dll-interface to be used by clients of class 'Wt::Http::Client'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\http\client(422): warning C4251: 'Wt::Http::Client::verifyFile_' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Wt::Http::Client'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\http\client(422): warning C4251: 'Wt::Http::Client::verifyPath_' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Wt::Http::Client'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\http\client(423): warning C4251: 'Wt::Http::Client::done_' : class 'Wt::Signal<boost::system::error_code,Wt::Http::Message,Wt::NoClass,Wt::NoClass,Wt::NoClass,Wt::NoClass>' needs to have dll-interface to be used by clients of class 'Wt::Http::Client'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\http\client(424): warning C4251: 'Wt::Http::Client::headersReceived_' : class 'Wt::Signal<Wt::Http::Message,Wt::NoClass,Wt::NoClass,Wt::NoClass,Wt::NoClass,Wt::NoClass>' needs to have dll-interface to be used by clients of class 'Wt::Http::Client'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\http\client(425): warning C4251: 'Wt::Http::Client::bodyDataReceived_' : class 'Wt::Signal<std::string,Wt::NoClass,Wt::NoClass,Wt::NoClass,Wt::NoClass,Wt::NoClass>' needs to have dll-interface to be used by clients of class 'Wt::Http::Client'
+     1>k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\wt\json\value(643): warning C4251: 'Wt::Json::Value::v_' : class 'boost::any' needs to have dll-interface to be used by clients of class 'Wt::Json::Value'
+                 k:\works\cpp\crossover\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\wt-3.3.5-rc2-msvs2013-windows-x86-sdk\include\boost\any.hpp(37) : see declaration of 'boost::any'
+     1>k:\works\cpp\crossover\crossoverproject\webapp\source.cpp(146): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"K:\Works\CPP\CrossOver\CrossOverProject\Debug\WebApp.exe" /INCREMENTAL /NOLOGO /LIBPATH:"K:\Works\CPP\CrossOver\Wt-3.3.5-rc2-msvs2013-Windows-x86-SDK\Wt-3.3.5-rc2-msvs2013-Windows-x86-SDK\lib" wtd.lib wthttpd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"K:\Works\CPP\CrossOver\CrossOverProject\Debug\WebApp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:\Works\CPP\CrossOver\CrossOverProject\Debug\WebApp.lib" /MACHINE:X86 Debug\Source.obj
+         WebApp.vcxproj -> K:\Works\CPP\CrossOver\CrossOverProject\Debug\WebApp.exe
+     1>Done Building Project "K:\Works\CPP\CrossOver\CrossOverProject\WebApp\WebApp.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.03
